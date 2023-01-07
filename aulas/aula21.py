@@ -89,10 +89,60 @@ print(f'A fora vale {a}')
 
 ## Retornando Valores - return
 
-def somar(a=0,b=0,c=0):
+'''def somar(a=0,b=0,c=0):
     s = a + b + c
     print(f'A soma vale {s}')
 
 
+somar(3,5,8)
+somar(6)
+somar(3,6,9)
 
-somar(3,3,5)
+## 
+def somar(a=0,b=0,c=0):
+    s = a + b + c
+    #print(f'A soma vale {s}')
+    return s
+
+r1 = somar(3,5,8)
+r2 = somar(6)
+r3 = somar(3,6,9)
+
+print(f'Meus cálculos deram {r1}, {r2} e {r3}')'''
+
+'''def fatorial(num=1):
+    f = 1
+    for c in range(num, 0, -1):
+        f *= c
+    return f
+
+
+#n = int(input(('Digite um número: ')))
+#print(f'O fatorial de 6 é {fatorial(n)}')
+f1 = fatorial(5)
+f2 = fatorial(4)
+f3 = fatorial()
+print(f"Os resultados são {f1} , {f2} e {f3}")'''
+
+# Par ou Ímpar
+'''def Par_ou_Impar(n=0):
+    if n % 2 == 0:
+        return 'Par!'
+    else:
+        return 'Ímpar!'
+
+
+n = int(input('Digite um número: '))
+print(f'O número {n} é {Par_ou_Impar(n)}')'''
+
+def par (n=0):
+    if n % 2 == 0:
+        return True
+    else:
+        return False
+
+num = int(input('Digite um número: '))
+if par(num):
+    print('É par!')
+else:
+    print('É ímpar!')
