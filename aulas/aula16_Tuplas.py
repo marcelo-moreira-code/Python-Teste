@@ -44,7 +44,7 @@ print(tupla.count(2))'''
 
 # As tuplas -()- são IMUTÁVEIS
 
-lanches = ('sanduíche','suco','pudim','bolo')
+lanches = ('sanduíche', 'suco', 'pudim', 'bolo')
 lanches.index('suco')
 print(lanches.index('suco'))
 print(len(lanches))
